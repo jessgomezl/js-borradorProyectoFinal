@@ -89,7 +89,7 @@ div a img{
 }
 .carousel-item img{
     height: 600px;
-    width: 1300px;
+    width: 100%;
 }
 .catalogo{
     margin-bottom: 10px;
@@ -104,6 +104,19 @@ div a img{
     background-size: 89% 500px;
     background-repeat: no-repeat;
     background-position: center;
+}
+.catalogo button{
+    width: 480px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    appearance: auto;
+    color:rgb(110, 243, 139);
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    background-color: salmon;
 }
 .section-nos{
     padding: 10px;
@@ -214,4 +227,40 @@ footer{
     padding: 15px;
     height: 225px;
     width: 190px;
+}
+.boton-seguir{
+    width: 480px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    appearance: auto;
+    color:rgb(110, 243, 139);
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    background-color: rgba(237, 231, 231, 0.971);
+}
+.boton-seguir :hover{
+    background-color: rgba(119, 228, 212, 1);
+    color: black;
+}
+.contenedor-botones{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.contenedor-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    appearance: auto;
+    color:rgb(110, 243, 139);
+    font-size: 15px;
+    font-family:'Merriweather', serif;
+    background-color: rgb(1, 15, 4);
+    width: 225px;
+    border-image: initial;
+    border-bottom: 2px solid grey;
 }
