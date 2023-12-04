@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(103, 65, 241);
+}
+.primer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: whitesmoke;
+    width:100%;
+    height: 190px;
+    background-image:url(./assets/images/banner-modified.png);
+    background-size: 130px 150px;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-color:rgb(103, 65, 241);
+}
+.navbar{
+    background-color:rgb(103, 65, 241);
+    width: 80%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 3;
+    align-content:flex-end ;
+}
+.nav-link{
+    color: black;
+}
+.nav-link :hover{
+    color: rgba(119, 228, 212, 1) ;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 390px;
+    list-style: none;
+}
+li{
+    display: flex;
+    list-style: none;
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    font-weight: bold;
+    word-spacing: 15px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.nav-items li:hover{
+    color:rgba(119, 228, 212, 1);
+}
+div a img{
+    width: 35px;
+    height: 35px;
+}
+
+/* main*/
+.carousel-item{
+    padding-top:10px;
+    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.carousel-item h5{
+    font-family:'Merriweather', serif;
+    font-size: 50px;
+}
+.carousel-item p{
+    font-family: 'Merriweather', serif;
+    font-size: 23px;
+    word-spacing: 3px;
+}
+.carousel-item img{
+    height: 600px;
+    width: 1300px;
+}
+.catalogo{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 490px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    list-style: none;
+    background-image: url(./assets/images/banner-2.jpg);
+    background-size: 89% 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-nos{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+.div-nos{
+    background-color: rgb(110, 243, 139);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div-nos p{
+    padding: 50px;
+    text-align:justify;
+    font-family:'Merriweather', serif;
+    font-size: 25px;
+    word-spacing: 3px
+}
+.div-nos h2{
+    text-align: center;
+    font-family:'Merriweather', serif;
+    font-size: 40px;
+    color: rgb(103, 65, 241);
+}
+.div-nos h2{
+    color:black;
+        text-decoration: underline;
+    }
+
+.div-img{
+    width: 100%;
+    height: 700px;
+}
+
+/*footer*/
+footer{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(103, 65, 241);
+}
+.div-footer{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.li-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-footer{
+    height: 40px;
+    width: 40px;
+}
+.li-footer h2, p{
+    font-family: 'Merriweather', serif;
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.li-footer h2:hover{
+    color:rgba(119, 228, 212, 1) ;
+}
+.li-footer p:hover{
+    color:rgba(119, 228, 212, 1) ;
+}
+
+/* main-productos*/
+.main-productos{
+    margin-top: 10px;
+    padding: 30px;
+    background-color: rgb(245, 216, 84);
+}
+.col{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.col img{
+    height: 250px;
+    width: 316px;
+}
+.col :hover{
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+.nombre-col{
+    color: rgb(103, 65, 241);
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+}
+.productos-container{
+    display: grid;
+    grid-template-columns: repeat(3, 225px);
+    grid-template-rows: repeat(3, 290);
+    column-gap: 250px;
+    row-gap: 10px;
+    justify-content: center;
+}
+.img-producto{
+    padding: 15px;
+    height: 225px;
+    width: 190px;
+}
